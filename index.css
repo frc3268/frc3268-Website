@@ -7,8 +7,8 @@ h1 {
   grid-template-columns: repeat(8, 1fr);
   overflow: hidden;
   background-color: grey;
-  width: 100%;
-  margin: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 #nav a {
