@@ -1,5 +1,5 @@
 # frc3268-Website
-asjoidoiasjdiaiosd
-asipdjasoidjipasj
-asdijasoidjoaisjdiosaj
-asdidjasoidjioasjdoi
+Goals before club day
+- Homepage
+- About Us
+- Schedule
