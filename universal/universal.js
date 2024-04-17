@@ -1,3 +1,4 @@
+// While we could use Position:sticky for some browsers, it is not a universal thus, I believe this is the better option
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 window.onscroll = function() {
