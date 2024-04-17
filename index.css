@@ -2,6 +2,21 @@ h1 {
     text-align:center;
 }
 
+#navbar {
+  overflow: hidden;
+  background-color: grey;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
 .sticky {
   position: fixed;
   top: 0;
