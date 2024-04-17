@@ -2,13 +2,13 @@ h1 {
     text-align:center;
 }
 
-#navbar {
+#nav {
   overflow: hidden;
   background-color: grey;
 }
 
 /* Navbar links */
-#navbar a {
+#nav a {
   float: left;
   display: block;
   color: black;
