@@ -3,6 +3,8 @@ h1 {
 }
 
 #nav {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
   overflow: hidden;
   background-color: grey;
   width: 100%;
