@@ -1,3 +1,15 @@
 h1 {
-  text-align:center;
+    text-align:center;
+}
+.nav {
+    overflow: hidden;
+    text-align: center;
+    background-color: grey;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 60px;
 }
