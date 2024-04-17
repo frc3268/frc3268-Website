@@ -5,6 +5,7 @@ h1 {
 #nav {
   overflow: hidden;
   background-color: grey;
+  width: 100%;
 }
 
 /* Navbar links */
