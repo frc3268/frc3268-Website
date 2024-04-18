@@ -1,24 +1,31 @@
 h1 {
     text-align:center;
+    color: #404040;
 }
 
 #nav {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   overflow: hidden;
-  background-color: grey;
-  margin-left: -10px;
-  margin-right: -10px;
+  background-color: #eaeaea;
+  height: 100px;
+  margin: -10px -10px -10px -10px;
 }
 
 #nav a {
   float: right;
   display: block;
   color: black;
-  text-align: center;
   padding: 14px;
   text-decoration: none;
+  font-family: "Times New Roman";
+  font-size: 50px;
 }
+
+#nav a:hover {
+  color: #5aacbd;
+}
+
 
 .sticky {
   position: fixed;
@@ -26,3 +33,25 @@ h1 {
   width: 100%;
 }
 
+#title {
+  font-size: 150px;
+  font-family: "Roberto";
+}
+hr {
+  width: 200px;
+  height: 5px;
+  background-color: #404040;
+}
+#title-caption {
+  text-align: center;
+  font-size: 45px;
+  color: #7d7d7d;
+  font-family: "Times New Roman";
+}
+
+#description {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman";
+  color: #515151;
+}
