@@ -27,6 +27,14 @@ h1 {
   color: #5aacbd;
 }
 
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0.5;
+  width: 100px;
+  height: 100px;
+}
+
 
 .sticky {
   position: fixed;
