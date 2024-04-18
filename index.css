@@ -4,6 +4,7 @@ h1 {
 }
 
 #nav {
+  /* Honestly I dont love this grid thing I think it makes it weirder to click links but thats me - Manny*/
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   overflow: hidden;
