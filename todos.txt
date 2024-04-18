@@ -1,1 +1,2 @@
-
+make open sans (the font of the original webpage) work
+it's not an issue with the css file since comic sans ms worked, and open sans works on the other page, so idk the problem
