@@ -5,6 +5,7 @@ h1 {
 
 #nav {
   /* Honestly I dont love this grid thing I think it makes it weirder to click links but thats me - Manny*/
+  /* change it if you want, or comment it out */
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   overflow: hidden;
@@ -29,8 +30,8 @@ h1 {
 
 #logo {
   position: fixed;
-  text-align: center;
-  top: 0;
+  left: 50%;
+  transform: translate(50%, 0%);
   width: 100px;
   height: 100px;
 }
