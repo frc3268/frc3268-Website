@@ -5,6 +5,7 @@ This is likely the fact that chrome and other browsers dont support it by defaul
 
 ps. At least i think so
 
+I'm positive that chrome supports open sans as it works in the valhallabots original website + it is a font in google fonts, also idk how to import font but that might work idk
 
 Scroll is broken slightly I thought it might be margin but it was not idk -Manny
 
