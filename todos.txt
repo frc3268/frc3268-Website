@@ -1,12 +1,3 @@
-make open sans (the font of the original webpage) work
-it's not an issue with the css file since comic sans ms worked, and open sans works on the other page, so idk the problem
-
-This is likely the fact that chrome and other browsers dont support it by default, we will likely need to import the font into this repository then use it in css. -Manny
-
-ps. At least i think so
-
-I'm positive that chrome supports open sans as it works in the valhallabots original website + it is a font in google fonts, also idk how to import font but that might work idk
-
 Scroll is broken slightly I thought it might be margin but it was not idk -Manny
 
 Update : I think I can fix it once I get home but I really can't while at school due to the slow testing speeds
