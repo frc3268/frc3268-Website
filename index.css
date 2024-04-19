@@ -6,8 +6,8 @@ h1 {
 #nav {
   /* Honestly I dont love this grid thing I think it makes it weirder to click links but thats me - Manny*/
   /* change it if you want, or comment it out */
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  /*display: grid;
+  grid-template-columns: repeat(8, 1fr);*/
   overflow: hidden;
   background-color: #eaeaea;
   height: 100px;
@@ -18,7 +18,7 @@ h1 {
   float: right;
   display: block;
   color: black;
-  padding: 14px;
+  padding: 0px;
   text-decoration: none;
   font-size: 35px;
 }
