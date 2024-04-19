@@ -35,6 +35,9 @@ h1 {
   height: 100px;
 }
 
+.content {
+  padding: 16px;
+}
 
 .sticky {
   position: fixed;
@@ -43,6 +46,9 @@ h1 {
   
 }
 
+.sticky + .content {
+  padding-top: 60px;
+}
 #title {
   font-size: 100px;
 }
