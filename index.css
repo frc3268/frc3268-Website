@@ -35,10 +35,6 @@ h1 {
   height: 100px;
 }
 
-body {
-  padding: 16px;
-}
-
 .sticky {
   position: fixed;
   top: 0;
