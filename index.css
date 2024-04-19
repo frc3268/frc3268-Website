@@ -40,6 +40,9 @@ h1 {
   padding-top: 30px;
 }
 
+.sticky + h1 {
+  padding-top: 60px;
+}
 #title {
   font-size: 100px;
 }
