@@ -38,13 +38,9 @@ h1 {
 .sticky {
   position: fixed;
   top: 0;
-  padding-top: 60px;
-  
+  padding-top: 30px;
 }
 
-.sticky + body {
-  padding-top: 60px;
-}
 #title {
   font-size: 100px;
 }
