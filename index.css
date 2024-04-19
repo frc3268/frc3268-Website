@@ -2,9 +2,7 @@ h1 {
     text-align:center;
     color: #404040;
 }
-.sticky + body {
-    padding-top:100px;
-}
+
 #nav {
   /* Honestly I dont love this grid thing I think it makes it weirder to click links but thats me - Manny*/
   /* change it if you want, or comment it out */
@@ -39,9 +37,10 @@ h1 {
 
 
 .sticky {
-  padding-top: 10px;
   position: fixed;
-  top: 0px;  
+  top: 0;
+  padding-top: 60px;
+  
 }
 
 #title {
