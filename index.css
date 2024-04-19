@@ -8,6 +8,7 @@ h1 {
   /* change it if you want, or comment it out */
   /*display: grid;
   grid-template-columns: repeat(8, 1fr);*/
+  display: block;
   overflow: hidden;
   background-color: #eaeaea;
   height: 100px;
