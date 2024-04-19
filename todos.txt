@@ -6,4 +6,6 @@ This is likely the fact that chrome and other browsers dont support it by defaul
 ps. At least i think so
 
 
-Scroll is broken slightly I thought it might be margin but idk -Manny
+Scroll is broken slightly I thought it might be margin but it was not idk -Manny
+
+Update : I think I can fix it once I get home but I really can't while at school due to the slow testing speeds
