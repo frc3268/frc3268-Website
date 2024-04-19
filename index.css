@@ -12,14 +12,13 @@ h1 {
   background-color: #eaeaea;
   height: 100px;
   width: 100%;
-  margin: -10px 0px -10px 0px;
+  margin: 0px -10px 0px -10px;
 }
 
 #nav a {
-  float: right;
+  float: left;
   display: block;
   color: black;
-  text-align: center;
   text-decoration: none;
   font-size: 35px;
 }
