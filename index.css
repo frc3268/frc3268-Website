@@ -38,9 +38,7 @@ h1 {
 
 .sticky {
   position: fixed;
-  top: 0;
-  padding-top: 60px;
-  
+  top: 0;  
 }
 
 #title {
