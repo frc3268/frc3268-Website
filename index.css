@@ -27,10 +27,6 @@ h1 {
   color: #5aacbd;
 }
 
-.content {
-  padding: 16px;
-}
-
 #logo {
   position: fixed;
   left: 50%;
@@ -43,8 +39,8 @@ h1 {
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
   padding-top: 60px;
+  
 }
 
 #title {
