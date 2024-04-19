@@ -11,7 +11,7 @@ h1 {
   overflow: hidden;
   background-color: #eaeaea;
   height: 100px;
-  /*margin: -10px -10px 0px -10px;*/
+  margin: -10px -10px 0px -10px;
 }
 
 #nav a {
