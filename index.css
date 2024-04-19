@@ -22,6 +22,7 @@ h1 {
   text-decoration: none;
   font-size: 35px;
   text-align: center;
+  margin: 14px;
 }
 
 #nav a:hover {
