@@ -1,2 +1,6 @@
 make open sans (the font of the original webpage) work
 it's not an issue with the css file since comic sans ms worked, and open sans works on the other page, so idk the problem
+
+This is likely the fact that chrome and other browsers dont support it by default, we will likely need to import the font into this repository then use it in css. -Manny
+
+ps. At least i think so
