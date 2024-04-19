@@ -6,11 +6,12 @@ h1 {
 #nav {
   /* Honestly I dont love this grid thing I think it makes it weirder to click links but thats me - Manny*/
   /* change it if you want, or comment it out */
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  /*display: grid;
+  grid-template-columns: repeat(8, 1fr);*/
   overflow: hidden;
   background-color: #eaeaea;
   height: 100px;
+  margin: -10px 0px -10px 0px;
 }
 
 #nav a {
@@ -40,9 +41,6 @@ h1 {
   padding-top: 30px;
 }
 
-.sticky + h1 {
-  padding-top: 60px;
-}
 #title {
   font-size: 100px;
 }
