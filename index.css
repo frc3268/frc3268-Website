@@ -42,12 +42,12 @@ h1 {
 .sticky {
   position: fixed;
   top: 0;
-  padding-top: 60px;
+  padding-top: 100px;
   
 }
 
-.sticky + .content {
-  padding-top: 60px;
+.sticky + body {
+  padding-top: 100px;
 }
 #title {
   font-size: 100px;
