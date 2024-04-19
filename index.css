@@ -31,7 +31,7 @@ h1 {
 #logo {
   position: fixed;
   left: 50%;
-  transform: translate(10%, -50%);
+  transform: translate(-50%, 10%);
   width: 100px;
   height: 100px;
 }
