@@ -44,7 +44,7 @@ h1 {
   top: 0;
 }
 .sticky + .content {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 #title {
