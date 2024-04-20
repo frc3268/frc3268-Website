@@ -1,0 +1,17 @@
+.post {
+    margin: 200px;
+}
+
+.post-title {
+    font-size: 32px;
+    color: #404040;
+    font-weight: bolder;
+}
+
+.post-caption {
+    font-size: 24px;
+}
+
+.post-text {
+    font-size: 16px;
+}
