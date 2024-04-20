@@ -1,5 +1,6 @@
 .post {
-    text-align: center;
+    display: block;
+    margin: auto;
     margin: 200px;
     width: 600px;
 }
@@ -29,6 +30,7 @@
     width: 600px;
     height: 1px;
     border: none;
+    opacity: 0.1;
     background-color: #515151;
 }
 
