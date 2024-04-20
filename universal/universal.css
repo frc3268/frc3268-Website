@@ -1,12 +1,6 @@
-@font-face {
-  font-family: 'Open Sans';
-  src: url('https://fonts.googleapis.com/css?family=Open Sans');
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
 
-@font-face {
-  font-family: 'Lora';
-  src: url('https://fonts.googleapis.com/css?family=Lora');
-}
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 html {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
