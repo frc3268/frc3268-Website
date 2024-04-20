@@ -1,5 +1,6 @@
 .post {
     margin: 200px;
+    width: 600px;
 }
 
 .post-title {
@@ -21,6 +22,12 @@
 .post-text {
     font-family: 'Lora', 'Times New Roman', serif;
     font-size: 24px;
+}
+
+.post-hr {
+    width: 600px;
+    height: 1px;
+    color: #515151;
 }
 
 #page-desc {

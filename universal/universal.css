@@ -6,9 +6,11 @@ html {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-style:bold;
 }
+
 body {
   background-color: #ffffff;
 }
+
 a:hover {
   color:blue;
 }
@@ -16,8 +18,10 @@ a:hover {
 h1 {
   text-align:center;
   color: #404040;
-  font-weight: bold;
+  font-size: 64px;
+  font-weight: bolder;
 }
+
 h2 {
   text-align: left;
   color: #404040;
@@ -63,10 +67,12 @@ h2 {
 .content {
   padding: 150px;
 }
+
 .sticky {
   position: fixed;
   top: 0;
 }
+
 .sticky + .content {
   padding-top: 120px;
 }
@@ -74,11 +80,13 @@ h2 {
 #title {
   font-size: 64px;
 }
-hr {
+
+#title-hr {
   width: 200px;
   height: 5px;
   background-color: #404040;
 }
+
 #title-caption {
   text-align: center;
   font-size: 24px;
