@@ -1,6 +1,2 @@
-Img needs to be fixed so it doesn't stretch
-
-Tonight I'll try and set up the other pages at home
-
-more css
-animation on logo can wait, let's get the pages done
+Img needs to be fixed so it doesn't stretch (What img?)
+Fix some css from homepage
