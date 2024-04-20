@@ -1,46 +1,22 @@
+// jQuery
+var script = document.createElement('script');
+script.src = 'https://code.jquery.com/jquery-3.6.0.min.js';
+
+script.onload = function() {
+  document.head.appendChild(script);
+};
+
+
 // While we could use Position:sticky for some browsers, it is not a universal thus, I believe this is the better option
 const scrollYBeforeLogoDisappears = 70;
-const logo = document.querySelector('#logo');
 
 window.onscroll = function() {
   if(!logo) {
     return;
   }
   if (scrollY >= scrollYBeforeLogoDisappears) {
-    logoFadeOut();
+    $('#logo').fadeOut(1000);
   } else {
-    logoFadeIn();
+    $('#logo').fadeIn(1000);
   }
 };
-
-function logoFadeOut() {
-  if(!logo) {
-    return;
-  }
-  let logoOpacity = 1;
-  function fade() {
-    logoOpacity -= 0.01;
-    logo.style.opacity = logoOpacity;
-    if(logoOpacity <= 0) {
-      clearInterval(fade);
-      logo.style.opacity = 0;
-    }
-  }
-  setInterval(fade, 10);
-}
-
-function logoFadeIn() {
-  if(!logo) {
-    return;
-  }
-  let logoOpacity = 0;
-  function fade() {
-    logoOpacity += 0.01;
-    logo.style.opacity = logoOpacity;
-    if(logoOpacity >= 1) {
-      clearInterval(fade);
-      logo.style.opacity = 1;
-    }
-  }
-  setInterval(fade, 10);
-}
