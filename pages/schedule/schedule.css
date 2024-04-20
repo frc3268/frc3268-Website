@@ -1,0 +1,11 @@
+ul {
+  margin: 0% 28% 0% 28%;
+  size:500px;
+}
+
+#bullet {
+  margin: 0% 30% 0% 0%;
+  text-align: left;
+  font-size: 25px;
+  color: #515151;
+}
