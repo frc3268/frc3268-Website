@@ -1,3 +1,4 @@
 Img needs to be fixed so it doesn't stretch (What img?)
 Fix some css from homepage
 Create footer
+Adjust the line-height property of post titles and captions and change them from headers to p tags
