@@ -1,5 +1,5 @@
 .post {
-    width: 600px;
+    width: 1000px;
     display: block;
     margin: 0 auto;
 }
@@ -26,7 +26,7 @@
 }
 
 .post-hr {
-    width: 600px;
+    width: 1000px;
     height: 1px;
     border: none;
     opacity: 0.1;
