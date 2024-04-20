@@ -8,3 +8,74 @@ body {
 a:hover {
   color:blue;
 }
+
+h1 {
+  text-align:center;
+  color: #404040;
+}
+
+#nav {
+/* Honestly I dont love this grid thing I think it makes it weirder to click links but thats me - Manny*/
+/* change it if you want, or comment it out */
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+overflow: hidden;
+background-color: #eaeaea;
+height: 100px;
+width: 100%;
+margin: 0px -10px 0px -10px;
+}
+
+#nav a {
+float: left;
+display: block;
+color: black;
+text-decoration: none;
+font-size: 35px;
+text-align: center;
+margin: 14px;
+}
+
+#nav a:hover {
+color: #5aacbd;
+}
+
+#logo {
+position: fixed;
+left: 50%;
+right: 50%;
+transform: translate(-50%, 0%);
+width: 150px;
+height: 150px;
+}
+
+.content {
+padding: 150px;
+}
+.sticky {
+position: fixed;
+top: 0;
+}
+.sticky + .content {
+padding-top: 120px;
+}
+
+#title {
+font-size: 100px;
+}
+hr {
+width: 200px;
+height: 5px;
+background-color: #404040;
+}
+#title-caption {
+text-align: center;
+font-size: 30px;
+color: #7d7d7d;
+}
+
+#description {
+text-align: center;
+font-size: 20px;
+color: #515151;
+}
