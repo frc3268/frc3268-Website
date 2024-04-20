@@ -15,3 +15,9 @@
 .post-text {
     font-size: 16px;
 }
+
+#page-desc {
+    text-align: center;
+    font-size: 20px;
+    color: #515151;
+}
