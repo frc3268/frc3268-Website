@@ -10,8 +10,8 @@ window.onscroll = function() {
     return;
   }
   if (scrollY >= scrollYBeforeLogoDisappears) {
-    $('#logo').fadeOut(1000);
+    $('#logo').fadeOut(500);
   } else {
-    $('#logo').fadeIn(1000);
+    $('#logo').fadeIn(500);
   }
 };
