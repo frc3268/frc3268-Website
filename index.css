@@ -3,17 +3,24 @@
 }
 
 .post-title {
-    font-size: 32px;
+    font-size: 48px;
     color: #404040;
     font-weight: bolder;
 }
 
 .post-caption {
+    font-size: 32px;
+}
+
+.post-date {
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-style: italic;
     font-size: 24px;
 }
 
 .post-text {
-    font-size: 16px;
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 24px;
 }
 
 #page-desc {
