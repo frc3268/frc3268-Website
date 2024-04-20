@@ -11,7 +11,7 @@ script.onload = function() {
 const scrollYBeforeLogoDisappears = 70;
 
 window.onscroll = function() {
-  if(!logo) {
+  if(!document.querySelector('#logo')) {
     return;
   }
   if (scrollY >= scrollYBeforeLogoDisappears) {
