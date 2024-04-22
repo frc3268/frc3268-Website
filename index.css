@@ -40,3 +40,8 @@
     font-size: 20px;
     color: #515151;
 }
+
+#video {
+    margin: 0 auto;
+    width: 555px;
+}
