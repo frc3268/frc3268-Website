@@ -42,7 +42,7 @@ h2 {
 }
 
 #nav a {
-  float: left;
+  float: right;
   display: block;
   color: black;
   text-decoration: none;
@@ -62,6 +62,14 @@ h2 {
   transform: translate(-50%, 0%);
   width: 150px;
   height: 150px;
+}
+
+#footer {
+  overflow: hidden;
+  background-color: #eaeaea;
+  height: 100px;
+  width: 100%;
+  margin: 0px -10px 0px -10px;
 }
 
 .content {
