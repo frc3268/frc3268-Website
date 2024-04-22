@@ -65,6 +65,8 @@ h2 {
 }
 
 #footer {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
   overflow: hidden;
   background-color: #eaeaea;
   height: 100px;
