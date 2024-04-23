@@ -5,21 +5,22 @@
 }
 
 .post-title {
-    font-size: 48px;
+    font-size: 36px;
     color: #404040;
     font-weight: bolder;
     line-height: 0;
 }
 
 .post-caption {
-    font-size: 32px;
+    font-size: 24px;
     line-height: 0;
+    font-weight: lighter;
 }
 
 .post-date {
     font-family: 'Lora', 'Times New Roman', serif;
     font-style: italic;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .post-text {
