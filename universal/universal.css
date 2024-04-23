@@ -94,8 +94,9 @@ h2 {
 .mini-title {
   text-align: center;
   color: #404040;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bolder;
+  line-height: 0;
 }
 
 #title-hr {
