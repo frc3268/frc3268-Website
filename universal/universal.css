@@ -92,7 +92,7 @@ h2 {
 }
 
 .mini-title {
-  text-align: center;
+  margin: 0% 16% 0% 16%;
   color: #404040;
   font-size: 36px;
   font-weight: bolder;

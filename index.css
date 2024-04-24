@@ -1,7 +1,7 @@
 .post {
     width: 68%;
     display: block;
-    margin: 0 auto;
+    margin: 0% 16% 0% 16%;
 }
 
 .post-title {
@@ -45,6 +45,5 @@
 
 #video {
     width: 556px;
-    display: block;
-    margin: 0 auto;
+    margin: 0% 16% 0% 16%;
 }
