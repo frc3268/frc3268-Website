@@ -6,12 +6,14 @@
 const scrollYBeforeLogoDisappears = 70;
 
 window.onscroll = function() {
-  if(!document.querySelector('#logo')) {
+  if(!document.querySelector('#logo') && !document.querySelector('#logo-backdrop')) {
     return;
   }
   if (scrollY >= scrollYBeforeLogoDisappears) {
     $('#logo').fadeOut(500);
+    $('#logo-backdrop').fadeOut(300);
   } else {
     $('#logo').fadeIn(500);
+    $('#logo-backdrop').fadeIn(1000);
   }
 };
